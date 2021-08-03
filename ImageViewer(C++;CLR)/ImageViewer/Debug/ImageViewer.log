@@ -1,0 +1,4 @@
+﻿  MyForm.cpp
+f:\programming\v2019\imageviewer\imageviewer\myform.cpp(9): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  ImageViewer.vcxproj -> F:\Programming\V2019\ImageViewer\Debug\ImageViewer.exe
