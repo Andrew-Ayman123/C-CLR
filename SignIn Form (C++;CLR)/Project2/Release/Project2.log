@@ -1,0 +1,7 @@
+﻿  MyForm.cpp
+f:\programming\v2019\project2\project2\myform.cpp(7): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+f:\programming\v2019\project2\project2\myform.cpp(11): error C2653: 'Praoject2': is not a class or namespace name
+f:\programming\v2019\project2\project2\myform.cpp(11): error C2065: 'MyForm': undeclared identifier
+f:\programming\v2019\project2\project2\myform.cpp(11): error C2146: syntax error: missing ';' before identifier 'form'
+f:\programming\v2019\project2\project2\myform.cpp(11): error C2065: 'form': undeclared identifier
+f:\programming\v2019\project2\project2\myform.cpp(12): error C2065: 'form': undeclared identifier
