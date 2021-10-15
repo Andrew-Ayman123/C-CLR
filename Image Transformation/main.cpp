@@ -4,19 +4,19 @@
 int main() {
   uiuc::PNG png, png2, result;
 
-  png.readFromFile("F:/Programming/C++/Image Transformationalma.png");
+  png.readFromFile("alma.png");
   result = grayscale(png);
-  result.writeToFile("F:/Programming/C++/Image Transformationout-grayscale.png");
+  result.writeToFile("out-grayscale.png");
   
   result = createSpotlight(png, 450, 150);
-  result.writeToFile("F:/Programming/C++/Image Transformationout-spotlight.png");
+  result.writeToFile("out-spotlight.png");
   
   result = illinify(png);
-  result.writeToFile("F:/Programming/C++/Image Transformationout-illinify.png");
+  result.writeToFile("out-illinify.png");
   
-  png2.readFromFile("F:/Programming/C++/Image Transformationoverlay.png");
+  png2.readFromFile("overlay.png");
   result = watermark(png, png2);
-  result.writeToFile("F:/Programming/C++/Image Transformationout-watermark.png");
+  result.writeToFile("out-watermark.png");
   
   return 0;
 }
